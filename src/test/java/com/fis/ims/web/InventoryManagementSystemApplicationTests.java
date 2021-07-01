@@ -1,4 +1,4 @@
-package com.example.ims;
+package com.fis.ims.web;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
