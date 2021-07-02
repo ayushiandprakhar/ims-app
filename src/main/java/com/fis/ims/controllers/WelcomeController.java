@@ -6,14 +6,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/ims")
-public class WelcomController {
+@RequestMapping("/api/ims/welcome")
+public class WelcomeController {
 
 	@Value("${spring.application.name:IMS Application}")
 	private String appName;
-	
-	@GetMapping("/welcome")
+
+	@GetMapping("/message")
 	public String getWelcomeMessage() {
-		return "Welcome user to "+appName;
+		return "Welcome user to " + appName;
 	}
+
 }
