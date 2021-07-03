@@ -3,9 +3,9 @@ package com.fis.ims.controllers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class WelcomControllerTest {
+class WelcomeControllerTest {
 
-	WelcomController welcomController = new WelcomController();
+	WelcomeController welcomController = new WelcomeController();
 
 	@Test
 	void testGetWelcomeMessage() {
