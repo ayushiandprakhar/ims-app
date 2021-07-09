@@ -9,7 +9,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class UserModel {
+public class UserResponseModel {
 
 	@JsonIgnore
 	private long id;
@@ -28,7 +28,7 @@ public class UserModel {
 	@JsonIgnore
 	private String password;
 
-	public UserModel(User user) {
+	public UserResponseModel(User user) {
 		this.userName = user.getUserName();
 		this.managerName = user.getManagerName();
 		this.employeeId = user.getEmployeeId();
